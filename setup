@@ -114,14 +114,14 @@ if [ -f .env ]; then
 	rm .env
 fi
 
-echo """API_ID = $api_id
-API_HASH = $api_hash
-BOT_TOKEN = $bot_token
-MONGO_DB_URI = $mongo_db
-LOG_GROUP_ID = $logger
-MUSIC_BOT_NAME = $mbt
-STRING_SESSION = $string_session
-OWNER_ID = $ownid""" > .env
+echo """API_ID= 28673741
+API_HASH= 2817c0d75c94d7bdc9eea5e3f22228cd
+BOT_TOKEN=6137246430:AAEI_TLI16iTr9I6u3HBUD4ruNoelmyoOrs
+MONGO_DB_URI=mongodb+srv://Lisa:Lisa@lisa.r1bgylg.mongodb.net/?retryWrites=true&w=majority
+LOG_GROUP_ID= -1001861990174
+MUSIC_BOT_NAME=Just_to_chill_bot
+STRING_SESSION= BQBxfHWBqzMcAcJM4fcI7aY_N6-8pCTwr3QAUHJOWO7WT5a_RlXNEKfUURhOzFX3dRYyxX0L4BFc3sqrvV0hlTU2x1jMbWgsyATSb7lYpmQqEpOcKUTZHHEZOy73egZZlngBwgAr2_oI9yIYsTvV5B3PQiXTVDGwsgyMDgUqEKWC9OSP8dGrOx6zptDV4d9S45lbtkzpwisLu5ur7cvoTbeJ7sNcUXE5AI5cUA5qm-ljvYx16EG9Kubd3xYS5QWwd2ypmIURyKG98zKbf_9MK7ettXPdsRbfrZplSbOaQUTFRVw1eyST83yAMD8PygplqT9LUPP_BLfhVeHismD8FjSCAAAAAXEoMxUA
+Owner_id = 2116442644
 clear
 
 pprint "\n\n\nThanks for using AnonX Music installer, your vars have been saved successfully ! \nIf you wanna add more variables add them in your env by : vi .env"
