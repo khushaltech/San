@@ -7,16 +7,16 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("17704723"))
+API_HASH = getenv("3976907b2e519cae8e7bae986ebaf0b1")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("6161598035:AAF2AnlPr6NtfEe8qTa2ZdtRZ8ao1t9tD3Y")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ")
+MONGO_DB_URI = getenv("mongodb+srv://Lisa:Lisa@lisa.r1bgylg.mongodb.net/?retryWrites=true&w=majority", None)
+LOG_GROUP_ID = int(getenv("-1001861990174"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "🥀ᑢᒪᑘᗷ🥀 music")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5747046335").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AnonymousX1025/AnonX
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("https://t.me/dramaticsticker")
+SUPPORT_GROUP = getenv("https://t.me/dramaticClubb")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQGrlg0AFvCMyUfgZ06wimIAonPHmmv-7L6e96EhBWNCL7M01jHa_hVQtaoaJyA4ZlvFHquQroBhAhcr1FKH612KNW9x30M9zw8_iYi8euM1b2jGNSI9VplFZntpqUJFDp8EgcOp1F260s-7C_mJiP2HTOfr7VHkRg7G1WHFZEItjb-9PelkxNFXMv8ICxzbc13wq9qGShNqe53U56o4sB4NJUiOuqTB8v8a1fbsHhVQ9IcJApZ-MpK_slOqZGlX6571NzzC9Iv9ux7QXCiUeuEbimphBRHX7VUE8naxVDmT6EM52ETb9XaEw5_SV8JXifQTf4280RhiCAOZ9PvdiXK8ghoQiQAAAAF2GGMXAA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
